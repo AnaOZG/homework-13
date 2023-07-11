@@ -1,0 +1,90 @@
+body {
+    background: #F1F1F1;
+        .container {
+            margin: 0 auto;
+            width: 1170px;
+            .headerdiv {
+                width: 352px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-bottom: 42px;
+                nav {
+                    width: 290px;
+                    ul {
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        a {
+                            color: #000;
+                            font-family: Roboto;
+                            font-size: 11px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                        }
+                    }
+                }
+                
+                
+            }
+        }
+        h1 {
+            color: #000;
+            font-family: Roboto;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-bottom: 27px;
+        }
+        .cardwrapper {
+            display: flex;
+            justify-content: space-between;
+
+            .imgdiv {
+                position: relative;
+                h2 {
+                    position: absolute;
+                    top: 32px;
+                    left: 41px;
+                    color: #FFF;
+                    font-family: Roboto;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+
+
+            }
+            .txtdiv {
+                padding: 68px 37px;
+                width: 362px;
+                height: 171px;
+                border-radius: 0px 0px 5px 5px;
+                background: #FFF;
+                p {
+                    @include ptag;
+                    width: 238px;
+                    height: 36px;
+                    
+                }
+                .time {
+                    display: inline-block;
+                    vertical-align: top;
+                    margin-left: 11px;
+                }
+                
+
+            }
+
+        }
+    .s-1 {
+        margin-bottom: 57px;
+        
+
+    }
+}
+
+
