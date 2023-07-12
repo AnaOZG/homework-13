@@ -99,14 +99,17 @@ body h1 {
   line-height: normal;
   margin-bottom: 27px;
 }
-body .cardwrapper {
+body .s-1 {
+  margin-bottom: 57px;
+}
+body .s-1 .cardwrapper {
   display: flex;
   justify-content: space-between;
 }
-body .cardwrapper .imgdiv {
+body .s-1 .cardwrapper .imgdiv {
   position: relative;
 }
-body .cardwrapper .imgdiv h2 {
+body .s-1 .cardwrapper .imgdiv h2 {
   position: absolute;
   top: 32px;
   left: 41px;
@@ -117,14 +120,14 @@ body .cardwrapper .imgdiv h2 {
   font-weight: 700;
   line-height: normal;
 }
-body .cardwrapper .txtdiv {
+body .s-1 .cardwrapper .txtdiv {
   padding: 68px 37px;
   width: 362px;
   height: 171px;
   border-radius: 0px 0px 5px 5px;
   background: #FFF;
 }
-body .cardwrapper .txtdiv p {
+body .s-1 .cardwrapper .txtdiv p {
   color: #8A8787;
   font-family: Roboto;
   font-size: 10px;
@@ -134,11 +137,79 @@ body .cardwrapper .txtdiv p {
   width: 238px;
   height: 36px;
 }
-body .cardwrapper .txtdiv .time {
+body .s-1 .cardwrapper .txtdiv .time {
   display: inline-block;
   vertical-align: top;
   margin-left: 11px;
 }
-body .s-1 {
-  margin-bottom: 57px;
+body .s-2 {
+  margin-bottom: 36px;
+}
+body .s-2 .imgwrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1170px;
+}
+body .s-2 .imgwrapper .imgwrapper1 {
+  height: 882px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .s-2 .imgwrapper .imgwrapper1 .imgdiv2 {
+  position: relative;
+  width: 758px;
+  height: 430px;
+}
+body .s-2 .imgwrapper .imgwrapper1 .imgdiv2 h2 {
+  position: absolute;
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body .s-2 .imgwrapper .imgwrapper2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body footer {
+  width: 100%;
+  background: #243043;
+  padding: 59px 137px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body footer h5 {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body footer .li-divs {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+body footer .li-divs ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 98px;
+}
+body footer .li-divs ul li {
+  color: #818687;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }/*# sourceMappingURL=global.css.map */

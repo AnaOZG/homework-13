@@ -1,43 +1,45 @@
 body {
     background: #F1F1F1;
-        .container {
-            margin: 0 auto;
-            width: 1170px;
-            .headerdiv {
-                width: 352px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                margin-bottom: 42px;
-                nav {
-                    width: 290px;
-                    ul {
-                        width: 100%;
-                        display: flex;
-                        justify-content: space-between;
-                        a {
-                            color: #000;
-                            font-family: Roboto;
-                            font-size: 11px;
-                            font-style: normal;
-                            font-weight: 700;
-                            line-height: normal;
-                        }
+    .container {
+        margin: 0 auto;
+        width: 1170px;
+        .headerdiv {
+            width: 352px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 42px;
+            nav {
+                width: 290px;
+                ul {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    a {
+                        color: #000;
+                        font-family: Roboto;
+                        font-size: 11px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
                     }
                 }
-                
-                
             }
+            
+            
         }
-        h1 {
-            color: #000;
-            font-family: Roboto;
-            font-size: 24px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            margin-bottom: 27px;
-        }
+    }
+    h1 {
+        color: #000;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 27px;
+    }
+    .s-1 {
+        margin-bottom: 57px;
         .cardwrapper {
             display: flex;
             justify-content: space-between;
@@ -80,11 +82,76 @@ body {
             }
 
         }
-    .s-1 {
-        margin-bottom: 57px;
-        
-
+    }
+    .s-2 {
+        margin-bottom: 36px;
+        .imgwrapper {
+            display: flex;
+            justify-content: space-between;
+            width: 1170px;
+            .imgwrapper1 {
+                height: 882px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                .imgdiv2 {
+                    position: relative;
+                    width: 758px;
+                    height: 430px;
+                    h2 {
+                        position: absolute;
+                        color: #FFF;
+                        font-family: Roboto;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                    }
+                }
+            }
+            .imgwrapper2 {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
+    }
+    footer {
+        width: 100%;
+        background: #243043;
+        padding: 59px 137px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h5 {
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .li-divs {
+            width: 350px;
+            display: flex;
+            justify-content: space-between;
+            ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 98px;
+                li {
+                    color: #818687;
+                    font-family: Roboto;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                }
+            }
+        }
     }
 }
-
-
